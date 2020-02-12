@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+  }
+  
+  body >i > {
+  
+    flex-grow:0;
+  }
+  
+  .banner{
+  padding: 30px;
+  background:gray;
+  }
+  
+  #container{
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  }
+  
+  .image{
+  border: 1px solid gray;
+  padding: 48px;
+  height:200px;
+  background:lightgray;
+  margin-top:-30px;
+  width: 100%;
+  margin-left: -11px;
+  }
+  
+  #container-2{
+  padding:115px;
+  display: flex;
+  margin-top:-60px;
+  }
+  
+  .text-box{
+  padding: 110px;
+  border: 1px solid gray;
+  background: lightgray;
+  margin-top: -90px;
+  width: 50px;
+  margin-left: -30px;
+  }
+  .button {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 25px;
+  width:120px;
+  height: 30px;
+  }
+  
+  
+  @media screen and (min-width: 700px){
+  #container{
+    margin-top:-45px;
+  }
+  .image{
+  margin-left: 15px;
+  height:220px;
+  margin-top: -25px;
+  }
+  .text-box{
+  margin-left:165px;
+  }
+  
+  .button{
+    position: absolute;
+    margin-left: 220px;
+  }
+  
+  @media screen and (min-width:950px){
+  
+  #container {
+  margin-top:-38px;
+  }
+  .text-box{
+  margin-left: 380px;
+  width: 40%;
+  margin-top: -40px;
+  }
+  
+  .button{
+    position: absolute;
+    bottom: 30px;
+    margin-left: 555px;
+  }
+  
+  .image{
+   width: 70%;
+   height: 300px;
+   margin-left:200px;
+  }
+  p{
+  position: absolute;
+  top: 430px;
+  margin-left: 520px;
+  }
+
+  .multiple-choice{
+  position: absolute;
+  top: 540px;
+  margin-left: 60px;
+  }
+
